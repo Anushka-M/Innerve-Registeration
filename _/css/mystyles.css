@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:auto;
+}
+
+body{
+	box-sizing:border-box;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.entry_form{
+	padding:30px;
+	width:50%;
+	margin:0 auto;
+	background-color:#fff;
+}
+
+legend{
+	text-align:center;
+	width:100%;
+}
+
+.entry_form div div {
+	width:50%;
+	margin:0 auto;
+}
+
+.entry_form div div section>input{
+	margin:0 auto;
+  font-size:16px;
+  padding:5px ;
+  margin-bottom:10px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #757575;
+ 
+}
+
+.entry_form div div section>input:focus{
+	border-bottom:1px solid blue;
+}
+
+.entry_form div div section>label{
+	margin:0 auto;
+  color:#696969; 
+  font-size:14px; 
+  font-weight:light;
+  display:block;
+  pointer-events:none;
+  padding-top:10px;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+-moz-transition:0.2s ease all; 
+}
+
+
+
